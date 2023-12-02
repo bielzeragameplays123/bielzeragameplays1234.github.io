@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt´br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" required>
+        <br>
+        <label for="logradouro">Rua:</label>
+        <input type="text" id="logradouro" readonly>
+        <br>
+        <label for="numero">Numero:</label>
+        <input type="text" id="numero" required>
+        <br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" readonly>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" readonly>
+        <br>
+        <label for="uf">Estado:</label>
+        <input type="text" id="uf" readonly>
+        <br>
+        <label for="ddd">DDD:</label>
+        <input type="text" id="ddd" readonly>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CEP</th>
+                <th>Rua</th>
+                <th>Numero</th>
+                <th>Bairro</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>DDD</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
